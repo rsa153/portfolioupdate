@@ -1,0 +1,30 @@
+#bg {
+    position: fixed; 
+    height:100%; 
+    width:100%
+}
+
+.navbar-nav {
+font-size:1.2em
+}
+/*need to make font more global */
+
+.navbar-brand {
+    background-color: #4aaaa5; 
+    text-align: center; 
+    font-size: 2em; 
+    font-weight: bold; 
+    line-height: 80px; 
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+.footer {
+    line-height: 40px; 
+    background-color: #666666; 
+    text-align: center
+}
+
+.img-reponsive {
+    position: relative; 
+    width: 100%; 
+    text-align: center;
+}
