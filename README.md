@@ -9,6 +9,7 @@ My portfolio consists of three sections:
         c. Crystal Collector.
         d. Trivia Game
     <li>A contact me form.</li>
+</ol>
 
 The is a mobile friendly website built using HTML, CSS, and Bootstrap.
 
