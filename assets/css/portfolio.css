@@ -1,30 +1,182 @@
 #bg {
     position: fixed; 
     height:100%; 
-    width:100%
+    width:100%;
 }
 
-.navbar-nav {
-font-size:1.2em
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
-/*need to make font more global */
 
-.navbar-brand {
+.name {
     background-color: #4aaaa5; 
-    text-align: center; 
-    font-size: 2em; 
+    text-align: center;
     font-weight: bold; 
-    line-height: 80px; 
-    font-family: Georgia, 'Times New Roman', Times, serif; 
-}
-.footer {
-    line-height: 40px; 
-    background-color: #666666; 
-    text-align: center
 }
 
-.img-reponsive {
-    position: relative; 
-    width: 100%; 
+.nav-item{
     text-align: center;
 }
+
+.footer {
+    background-color: #666666; 
+    text-align: center;
+    line-height: 2em; 
+}
+
+.card-header {
+    color:#4aaaa5; 
+}
+
+.img-responsive {
+    position: relative;
+    width: 100%;
+} 
+
+.carousel-caption {
+   background:  #4aaaa5;
+}
+
+a {
+    color: white;
+} 
+
+@media (max-width: 640px) {
+    .container {
+        padding: 0em;
+    }
+    .nav-item{
+        padding-left: 2.5em;
+    }
+
+    .navbar {
+        text-align: center;
+    }
+    .name {
+        font-size: 1.8em;
+        width: 100%;
+    }
+    
+    .card {
+        margin-top: 0.5em;       
+    }
+    
+    .card-header {
+        margin: 0.5em 0em;
+    }
+
+    #portfolio {
+        font-size: 1em;
+    }
+
+    .instructions {
+        font-size: 0.8em;
+    }
+    
+    .img-responsive {
+        padding: 0em 0em 1em 0em; 
+    } 
+    
+    .carousel-caption {
+       margin-bottom: 1em;
+       padding: 0.2em;
+       font-size: 1.8em;
+    } 
+    
+    #images{
+        padding: 0em;
+        margin-bottom: 2em;
+    }
+
+}
+
+@media screen and (min-width: 640px) and (max-width: 768px) {
+    
+    .nav-item{
+        font-size: 1.5em;
+        padding-left: 4em;
+    }
+
+    .navbar-nav{
+        padding: 1em;
+    }
+
+    .name {
+        font-size: 1.8em;
+        width: 100%;
+    }
+    
+    .card {
+        margin-top: 1em;       
+    }
+    
+    .card-header {
+        margin: 1em 3em;
+    }
+    
+    #portfolio {
+        font-size: 2em;
+    }
+    
+    .img-responsive {
+        padding: 0em 0em 1em 0em; 
+    } 
+    
+    .carousel-caption {
+       margin-bottom: 1em;
+       padding: 0.2em;
+       font-size: 1.8em;
+    } 
+
+    #images{
+        padding: 0em 3em;
+        margin-bottom: 2em;
+    }
+}
+
+@media screen and (min-width: 769px) { 
+
+    .nav-item{
+        padding-left: 2em;
+        font-size: 1.5em;
+    }
+
+    .navbar-nav{
+        padding: 1em;
+    }
+
+    .name {
+        font-size: 1.8em;
+        padding: 0.8em;
+    }
+
+    .card {
+        margin-top: 1em;       
+    }
+    
+    .card-header {
+        margin: 1em 3em;
+    }
+    
+    #portfolio {
+        font-size: 2em;
+    }
+
+    .img-responsive {
+        padding: 0em 0em 1em 0em; 
+    } 
+    
+    .carousel-caption {
+       margin-bottom: 1em;
+       padding: 0.2em;
+       font-size: 1.8em;
+    } 
+
+    #images{
+        padding: 0em 3em;
+        margin-bottom: 2em;
+    }
+   
+} 
+ 
+

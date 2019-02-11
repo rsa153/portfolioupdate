@@ -6,71 +6,90 @@
   <title>Portfolio | Rana Saber</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+    crossorigin="anonymous">
   <img id="bg" src="assets/images/concrete_seamless.png">
   <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/index.css">
 </head>
 
 <body>
+  <div class="container">
 
-  <div class="container-fullwidth p-2">
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
-      <a class="navbar-brand text-white px-4" href="index.html">Rana Saber</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown" aria-expanded="true" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav ml-auto pr-4">
-          <li class="nav-item px-3">
-            <a class="nav-link" href="index.html">About</a>
-          </li>
-          <li class="nav-item px-3">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item px-3">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
+    <!--Navigation-->
+    <div class="row">
+      <div class="col-md-12">
+        <nav class="navbar navbar-light bg-white">
+          <a class="name text-white" href="http://www.animalearn.org/img/pdf/animalFacts.pdf">Rana Saber</a>
+          <ul class="navbar-nav navbar-expand mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </nav>
       </div>
-    </nav>
+    </div>
+  </div>
 
-    <div class="card m-5 px-4">
-      <div class="row bg-white m-4 py-4">
+  <!--Card Header-->
+  <div class="container">
+    <div class="card">
+      <div class="row">
         <div class="col-md-12">
-          <div class="card-header bg-white">
-            <h2 class="card-header-text bg-white">About Me</h2>
+          <div class="card-header text-center bg-white">
+            <div id="portfolio"><strong>Meet me: Rana the Cat</strong></div>
+            <div id="instructions">Northwestern University · Chicago, IL 60611 · (123) 456-7890 ·
+              <a href="mailto:email@email.com">email@email.com</a>
+            </div>
           </div>
         </div>
 
-        <div class="row p-4 bg-white">
-          <div class="col-sm-6 col-md-3">
-            <img src="assets/images/cat.jpg" alt="cat">
+        <!--Cat Image-->
+        <div class="about-me">
+        <div class="row">
+          <div class="col-md-5">
+            <img class="img-responsive" src="assets/images/cat.jpg" alt="cat">
           </div>
-          <div class="col-sm-6 col-md-9">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus felis, ac rhoncus
-              nunc porttitor condimentum. Mauris sit amet dolor eu elit varius varius facilisis id arcu. Proin vel dui
-              massa. Nunc rhoncus fringilla pharetra. Vestibulum bibendum consectetur euismod. Proin commodo purus
-              vitae sollicitudin consectetur.</p>
+
+          <div class="col-md-7" id="text">
+            <p>To find out more information about me, please press my name in the navbar above or press 
+              <a id="animal-facts" href="https://www.animalearn.org/img/pdf/animalFacts.pdf">here</a>. 
+              To see my profile page, please press 
+              <a id="cute-animals" href="http://giphy.com/explore/cute-cat">here</a>. 
+              To contact me, please fill out the form on my 
+              <a id="contact-us" href="contact.html">contact page</a>.
+              To connect with me on social media, press any of the icons below:</p>
+
+            <p><a href="https://www.linkedin.com/" id="linkedin">
+                <i class="fab fa-linkedin-in fa-lg"></i>
+              </a>
+              <a href="https://www.github.com/" id="github">
+                <i class="fab fa-github-square fa-lg"></i>
+              </a>
+              <a href="https://www.twitter.com/" id="twitter">
+                <i class="fab fa-twitter fa-lg"></i>
+              </a>
+              <a href="https://www.facebook.com/" id="facebook">
+                <i class="fab fa-facebook-square fa-lg"></i></p>
+            </a>
           </div>
-          <div class="col-md-12">
-            <span class="clearfix"></span></p>
-            <p>Donec vehicula lacus at leo feugiat lacinia. In et ex ultrices, ultrices neque non, pretium odio. Nunc
-              id eros iaculis, pulvinar quam eget, egestas mauris.</p>
-            <p>Suspendisse dictum, arcu at convallis faucibus, quam sapien tincidunt nunc, sit amet egestas nibh tortor
-              et mi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-          </div>
+        </div>
         </div>
       </div>
     </div>
-
-    <div class="footer fixed-bottom text-white">
-      <span class="align-content-bottom">Copyright &copy</span>
-    </div>
+  </div>
+  </div>
+  <div class="footer fixed-bottom text-white">
+    <span class="align-content-bottom">Copyright &copy</span>
+  </div>
   </div>
 </body>
 

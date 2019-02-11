@@ -1,29 +1,162 @@
 #bg {
     position: fixed; 
     height:100%; 
-    width:100%
+    width:100%;
 }
 
-.navbar-nav {
-font-size:1.2em
-}
-/*need to make font more global */
-
-.navbar-brand {
-    background-color: #4aaaa5; 
-    text-align: center; 
-    font-size: 2em; 
-    font-weight: bold; 
-    line-height: 80px; 
-    font-family: Georgia, 'Times New Roman', Times, serif; 
-}
-.footer {
-    line-height: 40px; 
-    background-color: #666666; 
-    text-align: center
-}
-.card-header {
-    color:#4aaaa5; 
-    font-weight: bolder; 
+body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+.name {
+    background-color: #4aaaa5; 
+    text-align: center;
+    font-weight: bold; 
+}
+
+.nav-item{
+    text-align: center;
+}
+
+.footer {
+    background-color: #666666; 
+    text-align: center;
+    line-height: 2em; 
+}
+
+.card-header {
+    color:#4aaaa5; 
+}
+
+.img-responsive {
+    position: relative;
+    width: 100%;
+} 
+
+#cute-animals, #animal-facts, #contact-us{
+    color:#4aaaa5; 
+    font-weight: bold;
+}
+
+.fab {
+    color:#4aaaa5; 
+}
+
+@media (max-width: 640px) {
+    .container {
+        padding: 0em;
+    }
+
+    .nav-item{
+        padding-left: 2.5em;
+        font-size: 1.2em;
+    }
+
+    .navbar {
+        text-align: center;
+    }
+    
+    .name {
+        font-size: 1.8em;
+        width: 100%;
+    }
+    
+    .card {
+        margin-top: 0.5em;       
+    }
+    
+    .card-header {
+        margin: 0.5em 0em;
+    }
+
+    #portfolio {
+        font-size: 1.5em;
+    }
+ 
+    .fab {
+        padding: 1em;
+    }  
+    .about-me {
+        padding: 1em 3em;
+    }
+    #text{
+        padding: 1em;
+    }
+}
+
+@media screen and (min-width: 640px) and (max-width: 768px) {
+    
+    .nav-item{
+        font-size: 1.5em;
+        padding-left: 4em;
+    }
+
+    .navbar-nav{
+        padding: 1em;
+    }
+
+    .name {
+        font-size: 1.8em;
+        width: 100%;
+    }
+
+    .card {
+        margin-top: 1em;       
+    }
+    
+    .card-header {
+        margin: 1em 2em;
+    }
+    
+    #portfolio {
+        font-size: 2em;
+    }
+
+    .fab {
+        padding: 2em 1.4em;
+    } 
+
+    .about-me {
+        padding: 1em 2em;
+    }
+}
+
+@media screen and (min-width: 769px) { 
+
+    .nav-item{
+        padding-left: 2em;
+        font-size: 1.5em;
+    }
+
+    .navbar-nav{
+        padding: 1em;
+    }
+
+    .name {
+        font-size: 1.8em;
+        padding: 0.8em;
+    }
+    
+    .card {
+        margin-top: 1em;       
+    }
+    
+    .card-header {
+        margin: 1em 3em;
+    }
+    
+    #portfolio {
+        font-size: 2em;
+    }
+
+    .fab {
+     padding: 2em 2em;
+    }  
+
+    .about-me {
+     padding: 1em 3em 4em 3em;
+    }
+} 
+
+ 
+

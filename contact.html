@@ -15,65 +15,61 @@
 </head>
 
 <body>
-  <!---- NavBar ---->
-  <div class="container-fullwidth p-2">
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
-      <a class="navbar-brand text-white px-4" href="index.html">Rana Saber</a>
-      <!---- NavBar Toggler---->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown" aria-expanded="true" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <!---- Links in NavBar ---->
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav ml-auto pr-4">
-          <li class="nav-item px-3">
-            <a class="nav-link" href="index.html">About</a>
-          </li>
-          <li class="nav-item px-3">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item px-3">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
 
-    <div class="card m-5">
-      <div class="row bg-white m-3 py-4">
+  <div class="container">
+
+    <!--Navigation-->
+    <div class="row">
+      <div class="col-md-12">
+        <nav class="navbar navbar-light bg-white">
+            <a class="name text-white" href="http://www.animalearn.org/img/pdf/animalFacts.pdf">Rana Saber</a>
+          <ul class="navbar-nav navbar-expand mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+  <!--Card Header-->
+  <div class="container">
+    <div class="card">
+      <div class="row">
         <div class="col-md-12">
-          <div class="card-header bg-white">
-            <h2 class="card-header-text bg-white">Contact</h2>
+          <div class="card-header text-center bg-white">
+            <div id="portfolio"><strong>Comments, Questions, Compliments?</strong></div>
+            <div class="instructions">Please submit the form below and I will get back to you as soon as I can.</div>
           </div>
         </div>
       </div>
 
+      <!--Submit Form-->
       <form>
-        <ul class="mx-4">
-          <li>
-            <div class="form-group">
-              <label for="inputdefault">Name</label>
-              <input type="text" class="form-control" id="inputlg" placeholder="John Smith">
-            </div>
-          </li>
+        <div class="form-group">
+          <label for="inputdefault">Name</label>
+          <input type="text" class="form-control" id="inputlg" placeholder="John Smith">
+        </div>
 
-          <li>
-            <div class="form-group">
-              <label for="exampleInputEmail1">Email</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@gmail.com">
-            </div>
-          </li>
+        <div class="form-group">
+          <label for="InputEmail">Email</label>
+          <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="example@gmail.com">
+        </div>
 
-          <li>
-            <div class="form-group">
-              <label for="exampleMessageInput">Message</label>
-              <input type="text" class="form-control" id="exampleMessageInput" placeholder="Type your message here.">
-            </div>
-          </li>
+        <div class="form-group">
+          <label for="MessageInput">Message</label>
+          <textarea class="form-control" rows="5" input type="text" id="eMessageInput" placeholder="Type your message here."></textarea>
+        </div>
 
-          <button type="submit" class="btn btn-primary text-white">Submit</button>
-        </ul>
+        <button type="submit" class="btn btn-lg text-white">Submit</button>
+
       </form>
 
       <div class="footer fixed-bottom text-white">
