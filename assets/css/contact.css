@@ -49,7 +49,7 @@ form {
     }
 
     .nav-item{
-        padding-left: 2.5em;
+        padding-right: 4em;
         font-size: 1.2em;
     }
 
@@ -71,11 +71,11 @@ form {
     }
 
     #portfolio {
-        font-size: 1.2em;
+        font-size: 1.5em;
     }
 
     .instructions {
-        font-size: 0.8em;
+        font-size: 1em;
     }
 }
 
