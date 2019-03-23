@@ -1,4 +1,4 @@
-# Rana's Portfolio
+# Portfolio
 
 My portfolio consists of three sections: 
 <ol>
@@ -8,6 +8,8 @@ My portfolio consists of three sections:
         <p>b. Train scheduler.</p>
         <p>c. Crystal Collector.</p>
         <p>d. Trivia Game.</p>
+        <p>e. Friend Finder.</p>
+        <p>f. Burger Game.</p>
     <li>A contact me form.</li>
 </ol>
 
